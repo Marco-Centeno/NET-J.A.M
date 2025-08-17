@@ -2,10 +2,11 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Code, Smartphone, Cloud, Brain, Headphones } from "lucide-react"
+import { redirect } from "next/navigation"
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -34,11 +35,12 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="text-lg px-8 py-4 glow-primary hover:glow-primary group">
+            <Button onClick={() => (redirect("#contacto"))} size="lg" className="text-lg px-8 py-4 glow-primary hover:glow-primary group">
               Comenzar Proyecto
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
+             onClick={() => (redirect("#portafolio"))}
               variant="outline"
               size="lg"
               className="text-lg px-8 py-4 glass border-primary/30 hover:bg-primary/20 hover:text-foreground hover:border-primary/50 bg-transparent transition-all duration-300"
