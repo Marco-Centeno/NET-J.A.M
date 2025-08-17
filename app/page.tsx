@@ -7,6 +7,12 @@ import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { Navbar } from "@/components/navbar"
 
+export const metadata = {
+  alternates: {
+    canonical: "https://net-jam.com",
+  },
+}
+
 export default function HomePage() {
   return (
     <main className="relative">

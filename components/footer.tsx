@@ -63,15 +63,15 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 mr-3 text-primary" />
-                contacto@net-jam.com
+                ya.que.tengamos.correo.xd@net-jam.com
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 mr-3 text-primary" />
-                +1 (555) 123-4567
+                +52 337742789
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mr-3 text-primary" />
-                123 Tech Avenue, Innovation District
+                ni ubicaion tenemos xdd
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Newsletter Section */}
+        {/* Newsletter Section 
         <div className="glass rounded-3xl p-8 mb-12">
           <div className="text-center max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Mantente actualizado con las últimas tendencias tecnológicas</h3>
@@ -161,7 +161,7 @@ export function Footer() {
               <Button className="glow-primary hover:glow-primary">Suscribirse</Button>
             </div>
           </div>
-        </div>
+        </div>*/}
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border/30">

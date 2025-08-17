@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import { redirect } from "next/navigation"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -54,7 +55,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <Button className="glow-primary hover:glow-primary">Consulta Gratis</Button>
+            <Button onClick={() => (redirect("#contacto"))} className="glow-primary hover:glow-primary">Consulta Gratis</Button>
           </div>
 
           {/* Mobile menu button */}

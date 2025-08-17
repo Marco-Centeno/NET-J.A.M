@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://net-jam.com/sitemap.xml
+
+# Disallow admin areas (if any in the future)
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all crawlers to access CSS and JS files
+Allow: /_next/static/
+Allow: /favicon.ico

@@ -237,11 +237,11 @@ export function Contact() {
                     <div>
                       <h4 className="font-semibold mb-1">Oficina</h4>
                       <p className="text-muted-foreground">
-                        123 Tech Avenue
+                        En algun lugar del mundo xdd
                         <br />
-                        Innovation District
+                        qui
                         <br />
-                        Ciudad, País 12345
+                        Guadalajara, Jalisco 12345
                       </p>
                     </div>
                   </div>
@@ -249,6 +249,7 @@ export function Contact() {
               </CardContent>
             </Card>
 
+            {/* 
             <Card className="glass border-border/30">
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-4">¿Prefieres una llamada?</h3>
@@ -263,7 +264,7 @@ export function Contact() {
                 </Button>
               </CardContent>
             </Card>
-
+*/}
             <Card className="glass border-border/30">
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-4">Horarios de atención</h3>
