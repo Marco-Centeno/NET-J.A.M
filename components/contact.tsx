@@ -214,8 +214,8 @@ export function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Email</h4>
-                      <p className="text-muted-foreground">contacto@net-jam.com</p>
-                      <p className="text-muted-foreground">ventas@net-jam.com</p>
+                    
+                      <p className="text-muted-foreground">alphaline.dev@gmail.com</p>
                     </div>
                   </div>
 
