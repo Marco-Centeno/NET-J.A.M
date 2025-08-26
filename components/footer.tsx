@@ -166,7 +166,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border/30">
           <div className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © {currentYear} NET-J.A.M. Todos los derechos reservados. | Hecho con ❤️ para impulsar la innovación.
+            © {currentYearN Alphaline Todos los derechos reservados. | Hecho con ❤️ para impulsar la innovación.
           </div>
 
           {/* Social Links */}
@@ -193,16 +193,16 @@ export function Footer() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "NET-J.A.M",
+              name: "Alphaline",
               description:
                 "Consultoría premium especializada en desarrollo web, aplicaciones móviles, soluciones en la nube e inteligencia artificial",
               url: "https://net-jam.com",
               logo: "https://net-jam.com/logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+1-555-123-4567",
+                telephone: "+52 33 3774 2789",
                 contactType: "customer service",
-                email: "contacto@net-jam.com",
+                email: "alphaline.dev@gmail.com",
               },
               address: {
                 "@type": "PostalAddress",
