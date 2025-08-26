@@ -52,7 +52,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <h3 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4">
-              NET-J.A.M
+              Alphaline
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Consultoría premium especializada en transformar ideas en soluciones tecnológicas innovadoras. Tu socio
@@ -166,7 +166,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border/30">
           <div className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © {currentYearN Alphaline Todos los derechos reservados. | Hecho con ❤️ para impulsar la innovación.
+            © {currentYear} Alphaline Todos los derechos reservados. | Hecho con ❤️ para impulsar la innovación.
           </div>
 
           {/* Social Links */}
