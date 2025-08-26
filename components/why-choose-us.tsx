@@ -62,7 +62,7 @@ export function WhyChooseUs() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
             <span className="text-foreground">¿Por qué elegir </span>
             <span className="bg-gradient-to-r from-secondary via-accent to-primary bg-clip-text text-transparent">
-              NET-J.A.M?
+              Alphaline?
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-delay">
