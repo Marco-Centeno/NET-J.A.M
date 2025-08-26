@@ -225,8 +225,8 @@ export function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Teléfono</h4>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                      <p className="text-muted-foreground">+1 (555) 987-6543</p>
+
+                      <p className="text-muted-foreground">+52 (333) 774 2789</p>
                     </div>
                   </div>
 
@@ -237,11 +237,11 @@ export function Contact() {
                     <div>
                       <h4 className="font-semibold mb-1">Oficina</h4>
                       <p className="text-muted-foreground">
-                        En algun lugar del mundo xdd
+                    Próximamente
                         <br />
                         qui
                         <br />
-                        Guadalajara, Jalisco 12345
+                        Guadalajara, Jalisco
                       </p>
                     </div>
                   </div>
