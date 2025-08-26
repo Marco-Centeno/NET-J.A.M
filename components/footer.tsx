@@ -71,7 +71,7 @@ export function Footer() {
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mr-3 text-primary" />
-                ni ubicaion tenemos xdd
+             Próximamente
               </div>
             </div>
           </div>
