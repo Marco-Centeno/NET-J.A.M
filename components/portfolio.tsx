@@ -7,10 +7,10 @@ import { ExternalLink, Github, Star } from "lucide-react"
 export function Portfolio() {
   const projects = [
     {
-      title: "E-Commerce Premium",
+      title: "WEB app para cotizacion de projectos",
       description:
-        "Plataforma de comercio electrónico con IA para recomendaciones personalizadas y análisis predictivo.",
-      image: "/ecommerce-ai-dashboard.png",
+        "Plataforma de generacion para cotizaciones de proyectos de software con IA, que optimiza el proceso de ventas y mejora la precisión en la estimación de costos y tiempos.",
+      image: "/images/projects/quoutes.webp",
       tags: ["Next.js", "TypeScript", "AI/ML", "Stripe"],
       category: "Web Development",
       gradient: "from-cyan-500 to-blue-600",
@@ -34,7 +34,7 @@ export function Portfolio() {
       gradient: "from-emerald-500 to-teal-600",
       rating: 5,
     },
-    {
+    /*{
       title: "Chatbot IA Empresarial",
       description: "Asistente virtual inteligente para atención al cliente con procesamiento de lenguaje natural.",
       image: "/ai-chatbot-interface.png",
@@ -61,7 +61,7 @@ export function Portfolio() {
       category: "Cloud Solution",
       gradient: "from-yellow-500 to-orange-600",
       rating: 5,
-    },
+    },*/
   ]
 
   return (
@@ -76,7 +76,7 @@ export function Portfolio() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
             <span className="text-foreground">Nuestro </span>
             <span className="bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
-              Portafolio
+              Portafolio Destacado
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-delay">
@@ -139,7 +139,7 @@ export function Portfolio() {
                       </span>
                     ))}
                   </div>
-
+                  {/*
                   <div className="flex gap-3">
                     <Button
                       size="sm"
@@ -157,21 +157,14 @@ export function Portfolio() {
                       <Github className="h-4 w-4" />
                     </Button>
                   </div>
+*/
+                  }
                 </div>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        <div className="text-center mt-16">
-          <Button
-            size="lg"
-            variant="outline"
-            className="glass border-accent/30 hover:bg-gradient-to-r hover:from-accent/20 hover:to-primary/20 bg-transparent hover:border-accent/60 hover:shadow-xl hover:scale-105 transition-all duration-300 px-8 py-3"
-          >
-            Ver Todos los Proyectos
-          </Button>
-        </div>
       </div>
     </section>
   )

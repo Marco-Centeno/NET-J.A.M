@@ -11,43 +11,43 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "NET-J.A.M | Consultoría de Software Premium - Desarrollo Web, Apps Móviles e IA",
+  title: "APLHALINE | Consultoría de Software Premium - Desarrollo Web, Apps Móviles e IA",
   description:
     "Consultoría profesional especializada en desarrollo web, aplicaciones móviles, soluciones en la nube e IA. Transformamos ideas en soluciones digitales innovadoras.",
   keywords:
-    "consultoría software, desarrollo web, apps móviles, soluciones nube, inteligencia artificial, soporte tecnológico, NET-J.A.M, desarrollo custom",
-  authors: [{ name: "NET-J.A.M" }],
+    "consultoría software, desarrollo web, apps móviles, soluciones nube, inteligencia artificial, soporte tecnológico, ALPHALINE, desarrollo custom",
+  authors: [{ name: "ALPHALINE" }],
   robots: "index, follow",
   alternates: {
-    canonical: "https://net-jam.com",
+    canonical: "https://alphaline.com.mx",
   },
   openGraph: {
-    title: "NET-J.A.M | Consultoría de Software Premium",
+    title: "ALPHALINE | Consultoría de Software Premium",
     description:
       "Transformamos ideas en soluciones tecnológicas innovadoras. Especialistas en desarrollo web, apps móviles y soluciones de IA.",
     type: "website",
     locale: "es_ES",
     url: "https://net-jam.com",
-    siteName: "NET-J.A.M",
+    siteName: "ALPHALINE",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "NET-J.A.M - Consultoría de Software Premium",
+        alt: "ALPHALINE - Consultoría de Software Premium",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "NET-J.A.M | Consultoría de Software Premium",
+    title: "ALPHALINE | Consultoría de Software Premium",
     description: "Consultoría profesional en desarrollo de software y tecnología de vanguardia.",
     images: ["/og-image.png"],
   },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
     ],
     apple: "/apple-touch-icon.png",
   },
@@ -58,6 +58,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+
   return (
     <html lang="es" className={`${dmSans.variable} dark`}>
       <head>
@@ -105,7 +106,8 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="font-sans antialiased gradient-bg min-h-screen">{children}</body>
+      <body className="font-sans antialiased gradient-bg min-h-screen">{children}
+      </body>
     </html>
   )
 }

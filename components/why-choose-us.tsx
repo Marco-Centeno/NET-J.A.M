@@ -43,8 +43,8 @@ export function WhyChooseUs() {
     },
     {
       icon: CheckCircle,
-      title: "Soporte Continuo",
-      description: "Acompañamiento post-lanzamiento con mantenimiento, actualizaciones y soporte técnico 24/7.",
+      title: "Calidad Garantizada",
+      description: "Acompañamiento post-lanzamiento con mantenimiento, actualizaciones y soporte.",
       gradient: "from-indigo-500 to-blue-600",
       iconBg: "from-indigo-500/20 to-blue-500/20",
     },

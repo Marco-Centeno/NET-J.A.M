@@ -229,22 +229,24 @@ export function Contact() {
                       <p className="text-muted-foreground">+52 (333) 774 2789</p>
                     </div>
                   </div>
-
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 bg-gradient-to-br from-accent to-accent/70 rounded-2xl flex items-center justify-center mr-4 flex-shrink-0">
-                      <MapPin className="h-6 w-6 text-white" />
+                  {/*
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 bg-gradient-to-br from-accent to-accent/70 rounded-2xl flex items-center justify-center mr-4 flex-shrink-0">
+                        <MapPin className="h-6 w-6 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold mb-1">Oficina</h4>
+                        <p className="text-muted-foreground">
+                      Próximamente
+                          <br />
+                          qui
+                          <br />
+                          Guadalajara, Jalisco
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-semibold mb-1">Oficina</h4>
-                      <p className="text-muted-foreground">
-                    Próximamente
-                        <br />
-                        qui
-                        <br />
-                        Guadalajara, Jalisco
-                      </p>
-                    </div>
-                  </div>
+                  
+                  */}
                 </div>
               </CardContent>
             </Card>
@@ -264,7 +266,6 @@ export function Contact() {
                 </Button>
               </CardContent>
             </Card>
-*/}
             <Card className="glass border-border/30">
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold mb-4">Horarios de atención</h3>
@@ -284,6 +285,7 @@ export function Contact() {
                 </div>
               </CardContent>
             </Card>
+                    */}
           </div>
         </div>
       </div>

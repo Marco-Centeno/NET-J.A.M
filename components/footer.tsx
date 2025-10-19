@@ -38,10 +38,10 @@ export function Footer() {
   }
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/net-jam", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/company/net-jam", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/netjam", label: "Twitter" },
-    { icon: Instagram, href: "https://instagram.com/netjam", label: "Instagram" },
+    //{ icon: Github, href: "https://github.com/net-jam", label: "GitHub" },
+    //{ icon: Linkedin, href: "https://linkedin.com/company/net-jam", label: "LinkedIn" },
+    //{ icon: Twitter, href: "https://twitter.com/netjam", label: "Twitter" },
+    { icon: Instagram, href: "https://instagram.com/alphaline.dev", label: "Instagram" },
   ]
 
   return (
@@ -69,10 +69,12 @@ export function Footer() {
                 <Phone className="h-4 w-4 mr-3 text-primary" />
                 +52 33 3774 2789
               </div>
+              {/*
               <div className="flex items-center text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mr-3 text-primary" />
              Próximamente
               </div>
+               */}
             </div>
           </div>
 

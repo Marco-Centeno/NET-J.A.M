@@ -34,8 +34,8 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-           Alphaline
+              <h1 className="text-2xl tech-title text-white ">
+            ALPHALINE
             </h1>
           </div>
 
@@ -54,8 +54,8 @@ export function Navbar() {
             </div>
           </div>
 
-          <div className="hidden md:block">
-            <Button onClick={() => (redirect("#contacto"))} className="glow-primary hover:glow-primary">Consulta Gratis</Button>
+          <div className="hidden md:block cursor-pointer">
+            <Button onClick={() => (redirect("#contacto"))} className="glow-primary hover:bg-white text-white hover:text-black cursor-pointer border-2 border-white bg-transparent">Consulta Gratis</Button>
           </div>
 
           {/* Mobile menu button */}

@@ -1,6 +1,26 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: 'Psionic';
+  src: url('/public/fonts/psionic.ttf') format('truetype'),  url('/public/fonts/psionic.otf') format('opentype');;
+  font-display: swap;
+}
+
+
+.tech-title {
+  font-family: 'Psionic', sans-serif;
+}
+
+.curso-pointer {
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -313,3 +333,5 @@
     }
   }
 }
+
+

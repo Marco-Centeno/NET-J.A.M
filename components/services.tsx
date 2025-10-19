@@ -2,20 +2,57 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Code, Smartphone, Cloud, Brain, Headphones, Database } from "lucide-react"
+import { Code, Smartphone, Cloud, Brain, Headphones, Database, PcCase, User } from "lucide-react"
 
 export function Services() {
   const services = [
     {
-      icon: Code,
-      title: "Desarrollo Web",
-      description:
-        "Aplicaciones web modernas y responsivas con las últimas tecnologías. React, Next.js, TypeScript y más.",
-      features: ["Frontend Moderno", "Backend Escalable", "SEO Optimizado", "Performance Premium"],
-      color: "from-cyan-500 via-blue-500 to-purple-600",
-      glowColor: "shadow-cyan-500/25",
-      hoverGlow: "hover:shadow-cyan-500/40",
-    },
+  icon: User,
+  title: "Páginas de Presentación",
+  description:
+    "Diseñamos páginas de presentación profesionales, ideales para marcas personales, startups o empresas que buscan destacar. Enfocadas en estética, velocidad y conversión.",
+  features: [
+    "Diseño atractivo y responsivo",
+    "Optimización SEO y carga rápida",
+    "Integración con formularios y redes sociales",
+    "Experiencia enfocada en conversión"
+  ],
+  color: "from-emerald-500 via-teal-500 to-cyan-500",
+  glowColor: "shadow-emerald-500/25",
+  hoverGlow: "hover:shadow-emerald-500/40",
+},
+    {
+  icon: Code,
+  title: "Desarrollo Web",
+  description:
+    "Creamos aplicaciones web modernas, rápidas y totalmente responsivas, utilizando las últimas tecnologías como React, Next.js y TypeScript. Cada proyecto se optimiza para ofrecer la mejor experiencia al usuario y máximo rendimiento.",
+  features: [
+    "Frontend moderno y dinámico",
+    "Backend escalable y seguro",
+    "SEO altamente optimizado",
+    "Rendimiento superior"
+  ],
+  color: "from-cyan-500 via-blue-500 to-purple-600",
+  glowColor: "shadow-cyan-500/25",
+  hoverGlow: "hover:shadow-cyan-500/40",
+},
+{
+  icon: PcCase,
+  title: "Desarrollo de Escritorio",
+  description:
+    "Desarrollamos aplicaciones de escritorio potentes y eficientes con tecnologías modernas como Tauri, Electron y .NET. Diseñadas para ofrecer un rendimiento excepcional y una experiencia de usuario fluida en cualquier entorno.",
+  features: [
+    "Interfaz moderna y personalizable",
+    "Integración con APIs y servicios locales",
+    "Funcionamiento a la medida de tu negocio",
+    "Alto rendimiento y estabilidad"
+  ],
+  color: "from-purple-500 via-pink-500 to-red-600",
+  glowColor: "shadow-purple-500/25",
+  hoverGlow: "hover:shadow-purple-500/40",
+},
+
+/*
     {
       icon: Smartphone,
       title: "Aplicaciones Móviles",
@@ -60,7 +97,7 @@ export function Services() {
       color: "from-yellow-500 via-orange-500 to-red-500",
       glowColor: "shadow-yellow-500/25",
       hoverGlow: "hover:shadow-yellow-500/40",
-    },
+    },*/
   ]
 
   return (

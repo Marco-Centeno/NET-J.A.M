@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'Psionic';
+  src: url('/public/fonts/psionic.ttf') format('truetype'),  url('/public/fonts/psionic.otf') format('opentype');;
+  font-display: swap;
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -120,4 +126,10 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+.tech-title {
+  font-family: 'Psionic', sans-serif;
+  color: var(--color-primary-foreground);
 }
